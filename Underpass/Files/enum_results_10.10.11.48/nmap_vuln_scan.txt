@@ -1,0 +1,12 @@
+# Nmap 7.94SVN scan initiated Mon Dec 23 15:05:52 2024 as: /usr/lib/nmap/nmap --script vuln -oN enum_results_10.10.11.48/nmap_vuln_scan.txt 10.10.11.48
+Nmap scan report for underpass.htb (10.10.11.48)
+Host is up (0.021s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+|_http-csrf: Couldn't find any CSRF vulnerabilities.
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+
+# Nmap done at Mon Dec 23 15:06:24 2024 -- 1 IP address (1 host up) scanned in 31.42 seconds

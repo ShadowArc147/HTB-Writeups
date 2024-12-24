@@ -1,0 +1,10 @@
+# Nmap 7.94SVN scan initiated Mon Dec 23 15:00:35 2024 as: /usr/lib/nmap/nmap -sU --top-ports 100 -oN enum_results_10.10.11.48/nmap_udp.txt 10.10.11.48
+Nmap scan report for underpass.htb (10.10.11.48)
+Host is up (0.020s latency).
+Not shown: 97 closed udp ports (port-unreach)
+PORT     STATE         SERVICE
+161/udp  open          snmp
+1812/udp open|filtered radius
+1813/udp open|filtered radacct
+
+# Nmap done at Mon Dec 23 15:02:17 2024 -- 1 IP address (1 host up) scanned in 101.43 seconds

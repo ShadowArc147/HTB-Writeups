@@ -1,0 +1,9 @@
+# Nmap 7.94SVN scan initiated Mon Dec 23 15:00:05 2024 as: /usr/lib/nmap/nmap -p- -oN enum_results_10.10.11.48/nmap_full_tcp.txt 10.10.11.48
+Nmap scan report for underpass.htb (10.10.11.48)
+Host is up (0.021s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+# Nmap done at Mon Dec 23 15:00:35 2024 -- 1 IP address (1 host up) scanned in 30.52 seconds
